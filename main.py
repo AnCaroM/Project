@@ -187,7 +187,7 @@ def Modelo_gompertz():
 
 
 # Crear el menú en la barra lateral
-menu = st.sidebar.selectbox("Modelos", ["Modelo Logistico", "Modelo Exponencial", "Modelo Mathusiano", "Modelo Rickert", "Modelo Verhults", "Modelo Gompertz"])
+menu = st.sidebar.selectbox("Modelos", ["Modelo Logistico", "Modelo Exponencial", "Modelo Mathusiano", "Modelo Rickert", "Modelo Verhults", "Modelo Gompertz","About"])
 
 # Mostrar la sección seleccionada
 if menu == "Modelo Logistico":

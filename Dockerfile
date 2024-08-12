@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8501
 
 # Define el comando de inicio para Streamlit
-CMD ["streamlit", "run", "main"]
+CMD ["streamlit", "run", "main.py"]
